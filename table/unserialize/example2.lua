@@ -1,5 +1,5 @@
-inspect = require('inspect')
+Inspect = require('inspect')
 
-t = { a = { b = { c = "Hello world!", 1 }, 2, d = { 3 } } }
+local t = { a = { b = { c = "Hello world!", 1 }, 2, d = { 3 } } }
 
-print(inspect(t))
+print(Inspect(t))
