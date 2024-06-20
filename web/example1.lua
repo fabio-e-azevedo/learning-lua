@@ -12,7 +12,7 @@ end
 local users = cjson.decode(body)
 
 for i, _ in ipairs(users) do
-    print(users[i].name, users[i].email)
+    print("Name: " .. users[i].name .. " ===>>> Email: " .. string.lower(users[i].email))
 end
 
 -- print(cjson.encode(users[1]))
